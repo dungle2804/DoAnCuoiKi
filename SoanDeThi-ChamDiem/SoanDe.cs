@@ -121,12 +121,12 @@ namespace SoanDeThi_ChamDiem
             else
             {
                 Random_Test();
-                WriteFile();
+                SaveFileRandomTest();
                 MessageBox.Show("Đề đã được tạo thành công!");
             }
         }
 
-        private void WriteFile()
+        private void SaveFileRandomTest()
         {
             XmlWriter writer = XmlWriter.Create("Test.xml", new XmlWriterSettings() { Indent = true });
             writer.WriteStartElement("test");
