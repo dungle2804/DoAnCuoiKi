@@ -19,19 +19,41 @@
 
 <p>- Có 4 radio button được dùng để làm 4 đáp án trắc nghiệm cho câu hỏi, các đáp án cũng được thực hiện như tương tự như câu hỏi, thông qua việc sử dụng radion button giúp việc lựa chọn của đối tượng dễ dàng hơn và giúp lưu câu trả lời.</p>
 
-<p>- Form có nút bắt đầu làm bài để giúp thí sinh bắt đầu đề thi và cũng như đồng hồ bắt đầu hiện lên và đếm ngược.</p>
-
-<p>- Trước khi bấm bắt đầu thì tất cả các nút đề bị vô hiệu hóa, đề cũng không được load lên nhằm tránh tình trạng gian lận.</p>
+<p>- Form có nút bắt đầu làm bài để giúp thí sinh bắt đầu đề thi và cũng như đồng hồ bắt đầu hiện lên và đếm ngược. Trước khi bấm bắt đầu thì tất cả các nút đề bị vô hiệu hóa, đề cũng không được load lên nhằm tránh tình trạng gian lận</p>
 
 <p>- Trong form còn được tạo thêm các nút bao gồm tiếp theo và trước đó nhằm giúp thí sinh có thể bấm qua câu tiếp theo hoặc lùi câu trước đó, giúp thí sinh có thể sửa đổi đáp án nếu có ý định.</p>
 
 <p>- Cũng như có luôn 1 cái nút hoàn thành để thí sinh có thể nộp bài nếu đã hoàn thành xong, khi bấm nút hoàn thành thì form sẽ tự đông tắt đồng thời lưu xuống 1 file xml bài làm của thí sinh, giúp tránh hiện tượng gian lận hay hack vào đề thi.</p>
 
-<p>- Trên form cũng được thiết kế thêm 1 đồng hồ đếm ngược thời gian mà chỉ có giám thị mới có thể set được giờ, khi đồng hồ đếm ngược thì ngay lập tức form thi sẽ tự động tắt nhầm tránh trường hợp thí sinh làm bài quá giờ qui định, tất cả câu trả lời của thí sinh cũng sẽ được ghi lại.</p>
+<p>- Có thêm 1 đồng hồ đếm ngược thời gian mà chỉ có giám thị mới có thể set được giờ, khi đồng hồ đếm ngược thì ngay lập tức form thi sẽ tự động tắt nhầm tránh trường hợp thí sinh làm bài quá giờ qui định, tất cả câu trả lời của thí sinh cũng sẽ được ghi lại.</p>
 
-![image](https://user-images.githubusercontent.com/91233366/145054727-b4e69558-8c82-48a9-be77-0f460a0b106f.png)
+![image](https://user-images.githubusercontent.com/91233366/145055389-25065f1b-e133-470b-bcce-3dffc0162df9.png)
 
-![image](https://user-images.githubusercontent.com/91233366/145054804-c0b011c2-bf66-416f-acac-24aa1dcc0fab.png)
+![image](https://user-images.githubusercontent.com/91233366/145055438-534e4521-f750-477b-91fe-e95ad3a736e4.png)
+
+![image](https://user-images.githubusercontent.com/91233366/145055476-f6de4a0b-b230-4b05-bbac-9e014d490c81.png)
+
+2. File XML của Thitracnghiem form
+<p>- Có 1 file XML được đặt tên là test chứa đề để dành cho việc kiểm tra, và sẽ không có bất kìa dòng nào chỉ đáp án nhằm tránh gian lận</p>
+
+![image](https://user-images.githubusercontent.com/91233366/145055783-03214520-1194-40d9-8a43-d18a74d37c11.png)
+
+![image](https://user-images.githubusercontent.com/91233366/145055807-4f8f1e4a-b9ec-4973-8e6b-b6ecfef385fe.png)
+
+3. Soandethi-Chamtracnghiem Form
+<p>- Ở phần soạn đề, giám thị có thể tự tạo ra 1 đề theo mong muốn bằng cách tự chọn các câu có trong ngân hàng đề được chứ trong file DeThi.xml.</p>
+
+<p>- Đồng thời giám thị cũngg có thể tự tạo 1 đề thi với các câu hỏi ngẫu nhiên chỉ bằng cách cho số lượng câu hỏi mong muốn vào 1 textbox và bấm tạo đề, hệ thống sẽ tự động chọn bất kì câu hỏi tự ngân hàng đề cho tới khi đủ số lượng thì sẽ xuất ra 1 fie xml đề mới.</p>
+
+<p>Form tạo đề</p>
+![image](https://user-images.githubusercontent.com/91233366/145057621-7110af84-491a-4fda-88f3-61723f450e0b.png)
+
+<p>Tạo đề ngẫu nhiên bằng cách cho số lượng câu hỏi.</p>
+![image](https://user-images.githubusercontent.com/91233366/145057849-8bda71db-8195-43f1-81f2-113b857c1708.png)
+
+
+
+
 
 
 
