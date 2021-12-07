@@ -13,7 +13,8 @@ namespace SoanDeThi_ChamDiem
 {
     public partial class SoanDe : Form
     {
-        List<Question> lstQuestion = new List<Question>();        
+        List<Question> lstQuestion = new List<Question>();
+        List<String> lstRandomQuestion = new List<String>();
 
         List<AnswerA> lstAnswerA = new List<AnswerA>();
         List<AnswerB> lstAnswerB = new List<AnswerB>();
@@ -177,7 +178,12 @@ namespace SoanDeThi_ChamDiem
                 }
                 numbers.Add(number);
             }
+            for (int i = 0; i < int.Parse(txtSoCauHoi.Text); i++)
+            {
+                lstRandomQuestion.Add(lbQuestion.Items[numbers[i]].ToString());              
+            }      
 
+            listBox1.DataSource = lstRandomQuestion;
         }
 
     }
