@@ -12,7 +12,7 @@
 ***
 **Function of Project**
 
-1. Thitracnghiem
+1. Thitracnghiem form
 <p>- Có mục điền thông tin đăng nhập của thí sinh, giúp cho việc kiểm soát số lượng thí sinh cũng như chấm bài dễ dàng hơn, nếu không đăng nhập thì sẽ không làm bài được.</p>
 
 <p>- Có thể load được đề lên thông qua 1 listbox rồi truyền đổ data vào 1 text box khác giúp cho việc hiển thị đề trở nên thân thiện và dễ nhìn hơn.</p>
@@ -28,6 +28,12 @@
 <p>- Cũng như có luôn 1 cái nút hoàn thành để thí sinh có thể nộp bài nếu đã hoàn thành xong, khi bấm nút hoàn thành thì form sẽ tự đông tắt đồng thời lưu xuống 1 file xml bài làm của thí sinh, giúp tránh hiện tượng gian lận hay hack vào đề thi.</p>
 
 <p>- Trên form cũng được thiết kế thêm 1 đồng hồ đếm ngược thời gian mà chỉ có giám thị mới có thể set được giờ, khi đồng hồ đếm ngược thì ngay lập tức form thi sẽ tự động tắt nhầm tránh trường hợp thí sinh làm bài quá giờ qui định, tất cả câu trả lời của thí sinh cũng sẽ được ghi lại.</p>
+
+![image](https://user-images.githubusercontent.com/91233366/145054727-b4e69558-8c82-48a9-be77-0f460a0b106f.png)
+
+![image](https://user-images.githubusercontent.com/91233366/145054804-c0b011c2-bf66-416f-acac-24aa1dcc0fab.png)
+
+
 
 
 
