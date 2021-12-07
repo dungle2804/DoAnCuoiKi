@@ -62,6 +62,7 @@ namespace SoanDeThi_ChamDiem
             this.btnCreate.TabIndex = 1;
             this.btnCreate.Text = "Tạo đề thi";
             this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
             // btnRandom
             // 

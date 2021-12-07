@@ -212,7 +212,48 @@ namespace SoanDeThi_ChamDiem
 
         private void btnDel_Click(object sender, EventArgs e)
         {
-            
+            int index = lbViewQuestion.SelectedIndex;
+
+            lbViewQuestion.Items.RemoveAt(index);// Xoa khoi listbox
+        }
+
+        private void btnCreate_Click(object sender, EventArgs e)
+        {
+            XmlWriter writer = XmlWriter.Create("Test_Selected.xml", new XmlWriterSettings() { Indent = true });
+            writer.WriteStartElement("test");
+
+            for (int i = 0; i < int.Parse(txtSoCauHoi.Text); i++)
+            {
+                int ID = i + 1;
+                writer.WriteStartElement("Question");
+                writer.WriteAttributeString("ID", ID.ToString());
+
+                writer.WriteStartElement("content");
+                writer.WriteValue(lstQuestion[numbers[i]].ToString());
+                writer.WriteEndElement();
+
+                writer.WriteStartElement("A");
+                writer.WriteValue(lstAnswerA[numbers[i]].ToString());
+                writer.WriteEndElement();
+
+                writer.WriteStartElement("B");
+                writer.WriteValue(lstAnswerB[numbers[i]].ToString());
+                writer.WriteEndElement();
+
+                writer.WriteStartElement("C");
+                writer.WriteValue(lstAnswerC[numbers[i]].ToString());
+                writer.WriteEndElement();
+
+                writer.WriteStartElement("D");
+                writer.WriteValue(lstAnswerD[numbers[i]].ToString());
+                writer.WriteEndElement();
+
+
+                writer.WriteEndElement();
+            }
+
+            writer.WriteEndElement();
+            writer.Close();
         }
     }
 }
