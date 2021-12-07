@@ -15,7 +15,7 @@ namespace SoanDeThi_ChamDiem
         public override string ToString()
         {
             //return this.ID.ToString() + ". " + this.content.ToString();
-            return this.Answer;
+            return this.Name + " ID " + this.ID + " Answer: " + this.Answer;
         }
 
     }
