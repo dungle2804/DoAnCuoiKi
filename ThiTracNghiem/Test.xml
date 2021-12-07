@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test>
+  <Question ID="1">
+    <content>Những chữ đầu của nhón ACL là tên viết tắt của</content>
+    <A>Arbitrary Cotest Language</A>
+    <B>Access Control Library</B>
+    <C>Access Control List</C>
+    <D>Allowed Computer List</D>
+  </Question>
+  <Question ID="2">
+    <content>Quyền truy cập nào cho phép ta hiệu chỉnh thuộc tính của một tập tin?</content>
+    <A>Hiệu chỉnh (Modiffy)</A>
+    <B>Sao chép (Copy)</B>
+    <C>Thay đổi (Change)</C>
+    <D>Biên tập (Edit)</D>
+  </Question>
+  <Question ID="3">
+    <content>Trojan Horse là gì?</content>
+    <A>Một chương trình độc hại mà lấy cắp tên người dùng và mật khẩu của bạn</A>
+    <B>Một người sử dụng trái phép những người thu truy cập vào cơ sở dữ liệu người dùng của bạn và cho biết thêm mình như một người sử dụng</B>
+    <C>Gây hại như mã giả mạo hoặc thay thế mã hợp pháp</C>
+    <D>Một máy chủ đó là phải hy sinh cho tất cả các hacking nỗ lực để đăng nhập và giám sát các hoạt động hacking</D>
+  </Question>
+  <Question ID="4">
+    <content>Giai đoạn đầu của hacking là gì?</content>
+    <A>Duy trì truy cập</A>
+    <B>Gaining truy cập</B>
+    <C>Trinh sát</C>
+    <D>Dò tìm (Scanning)</D>
+  </Question>
+  <Question ID="5">
+    <content>Quyền được truy cập nào cho phép ta lưu trữ một tập tin?</content>
+    <A>Đọc</A>
+    <B>Sao chép</B>
+    <C>Hiệu chỉnh</C>
+    <D>Ghi</D>
+  </Question>
+  <Question ID="6">
+    <content>Chính sách tài khoản nào nên được thiết lập để ngăn chặn các cuộc tấn công ác ý vào tài khoản của user?</content>
+    <A>Disable tài khoản không dùng đến</A>
+    <B>&gt;Hạn chế thời gian</B>
+    <C>Ngày hết hạn tài khoản</C>
+    <D>Giới hạn số lần logon</D>
+  </Question>
+  <Question ID="7">
+    <content>Công cụ nào sau đây đúng là một công cụ để thực hiện footprinting không bị phát hiện?</content>
+    <A>Wquestions search</A>
+    <B>Traceroute</B>
+    <C>Ping sweep</C>
+    <D>Host scanning</D>
+  </Question>
+  <Question ID="8">
+    <content>Cổng nào được HTTPS sử dụng?</content>
+    <A>21</A>
+    <B>80</B>
+    <C>443</C>
+    <D>53</D>
+  </Question>
+  <Question ID="9">
+    <content>Footprinting là gì?</content>
+    <A>Đo dấu vết của một hacker có đạo đức</A>
+    <B>Tích luỹ dữ liệu bằng cách thu thập thông tin về một mục tiêu</B>
+    <C>Quét một mạng lưới mục tiêu để phát hiện hệ điều hành các loại</C>
+    <D>Sơ đồ bố trí vật lý của một mạng của mục tiêu</D>
+  </Question>
+  <Question ID="10">
+    <content>Chiều dài tối thiểu của mật khẩu cần phải là ?</content>
+    <A>12 đến 15 ký tự</A>
+    <B>3 đến 5 ký tự</B>
+    <C>8 ký tự</C>
+    <D>1 đến 3 ký tự</D>
+  </Question>
+</test>
