@@ -10,7 +10,7 @@
 * URL: https://github.com/dungle2804/DoAnCuoiKi-2059006-2059042
 
 ***
-**Function of Project**
+**3.Function of Project**
 
 1. Thitracnghiem form
 <p>- Có mục điền thông tin đăng nhập của thí sinh, giúp cho việc kiểm soát số lượng thí sinh cũng như chấm bài dễ dàng hơn, nếu không đăng nhập thì sẽ không làm bài được.</p>
@@ -62,6 +62,20 @@
 
 <p>File bài làm của thí sinh</p>
 ![image](https://user-images.githubusercontent.com/91233366/145061543-fe33f7ad-5838-4af4-9558-b60cb4692016.png)
+
+***
+**Tự đánh giá chương trình** 
+* Điểm mạnh 
+
+
+
+* Điểm yếu 
+
+***
+** Các nguồn tham khảo **
+<p>- Có sự hướng dẫn và giúp đỡ của thầy Nguyễn Đức Huy</p>
+
+
 
 
 
