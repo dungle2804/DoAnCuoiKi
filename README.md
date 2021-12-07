@@ -72,7 +72,7 @@
 * Điểm yếu 
 
 ***
-** Các nguồn tham khảo **
+**Các nguồn tham khảo**
 <p>- Có sự hướng dẫn và giúp đỡ của thầy Nguyễn Đức Huy</p>
 
 
