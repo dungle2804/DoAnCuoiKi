@@ -50,12 +50,12 @@ namespace SoanDeThi_ChamDiem
             this.lbQuestion.FormattingEnabled = true;
             this.lbQuestion.Location = new System.Drawing.Point(-1, 331);
             this.lbQuestion.Name = "lbQuestion";
-            this.lbQuestion.Size = new System.Drawing.Size(774, 368);
+            this.lbQuestion.Size = new System.Drawing.Size(939, 368);
             this.lbQuestion.TabIndex = 0;
             // 
             // btnCreate
             // 
-            this.btnCreate.Location = new System.Drawing.Point(319, 224);
+            this.btnCreate.Location = new System.Drawing.Point(390, 224);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(82, 39);
             this.btnCreate.TabIndex = 1;
@@ -64,7 +64,7 @@ namespace SoanDeThi_ChamDiem
             // 
             // btnRandom
             // 
-            this.btnRandom.Location = new System.Drawing.Point(203, 42);
+            this.btnRandom.Location = new System.Drawing.Point(197, 38);
             this.btnRandom.Name = "btnRandom";
             this.btnRandom.Size = new System.Drawing.Size(100, 57);
             this.btnRandom.TabIndex = 2;
@@ -75,7 +75,7 @@ namespace SoanDeThi_ChamDiem
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 16);
+            this.label1.Location = new System.Drawing.Point(6, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(153, 13);
             this.label1.TabIndex = 4;
@@ -83,7 +83,7 @@ namespace SoanDeThi_ChamDiem
             // 
             // txtSoCauHoi
             // 
-            this.txtSoCauHoi.Location = new System.Drawing.Point(203, 16);
+            this.txtSoCauHoi.Location = new System.Drawing.Point(197, 19);
             this.txtSoCauHoi.Name = "txtSoCauHoi";
             this.txtSoCauHoi.Size = new System.Drawing.Size(100, 20);
             this.txtSoCauHoi.TabIndex = 5;
@@ -94,9 +94,9 @@ namespace SoanDeThi_ChamDiem
             this.groupBox1.Controls.Add(this.txtSoCauHoi);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.btnRandom);
-            this.groupBox1.Location = new System.Drawing.Point(22, 50);
+            this.groupBox1.Location = new System.Drawing.Point(22, 61);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(337, 269);
+            this.groupBox1.Size = new System.Drawing.Size(409, 258);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             // 
@@ -105,9 +105,9 @@ namespace SoanDeThi_ChamDiem
             this.groupBox2.Controls.Add(this.btnAdd);
             this.groupBox2.Controls.Add(this.lbViewQuestion);
             this.groupBox2.Controls.Add(this.btnCreate);
-            this.groupBox2.Location = new System.Drawing.Point(365, 50);
+            this.groupBox2.Location = new System.Drawing.Point(459, 56);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(408, 269);
+            this.groupBox2.Size = new System.Drawing.Size(479, 269);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             // 
@@ -116,13 +116,13 @@ namespace SoanDeThi_ChamDiem
             this.lbViewQuestion.FormattingEnabled = true;
             this.lbViewQuestion.Location = new System.Drawing.Point(0, 5);
             this.lbViewQuestion.Name = "lbViewQuestion";
-            this.lbViewQuestion.Size = new System.Drawing.Size(313, 264);
+            this.lbViewQuestion.Size = new System.Drawing.Size(384, 264);
             this.lbViewQuestion.TabIndex = 2;
             // 
             // lbUserAnswer
             // 
             this.lbUserAnswer.FormattingEnabled = true;
-            this.lbUserAnswer.Location = new System.Drawing.Point(908, 435);
+            this.lbUserAnswer.Location = new System.Drawing.Point(959, 435);
             this.lbUserAnswer.Name = "lbUserAnswer";
             this.lbUserAnswer.Size = new System.Drawing.Size(280, 264);
             this.lbUserAnswer.TabIndex = 2;
@@ -138,19 +138,20 @@ namespace SoanDeThi_ChamDiem
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(319, 170);
+            this.btnAdd.Location = new System.Drawing.Point(390, 143);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(83, 35);
             this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "Thêm";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(0, 101);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(303, 160);
+            this.listBox1.Size = new System.Drawing.Size(403, 147);
             this.listBox1.TabIndex = 6;
             // 
             // SoanDe

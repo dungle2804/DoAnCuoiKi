@@ -15,6 +15,7 @@ namespace SoanDeThi_ChamDiem
     {
         List<Question> lstQuestion = new List<Question>();
         List<String> lstRandomQuestion = new List<String>();
+        List<String> lstSelectedQuestion = new List<String>();
 
         List<AnswerA> lstAnswerA = new List<AnswerA>();
         List<AnswerB> lstAnswerB = new List<AnswerB>();
@@ -186,5 +187,12 @@ namespace SoanDeThi_ChamDiem
             listBox1.DataSource = lstRandomQuestion;
         }
 
+        private void btnAdd_Click(object sender, EventArgs e)
+        {           
+            int index = lbQuestion.SelectedIndex;
+            string A = lbQuestion.Items[index].ToString();
+
+            lbViewQuestion.Items.Add(A);              
+        }
     }
 }
