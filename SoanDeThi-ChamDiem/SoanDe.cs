@@ -261,6 +261,8 @@ namespace SoanDeThi_ChamDiem
 
             writer.WriteEndElement();
             writer.Close();
+
+            MessageBox.Show("Đề thi đã được tạo thành công ");
         }
     }
 }
