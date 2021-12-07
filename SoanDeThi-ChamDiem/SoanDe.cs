@@ -36,6 +36,10 @@ namespace SoanDeThi_ChamDiem
             LoadFileUserAnswer();
             
         }
+        private void SoanDe_Load(object sender, EventArgs e)
+        {
+
+        }
 
         private void LoadFileUserAnswer()
         {
@@ -188,11 +192,27 @@ namespace SoanDeThi_ChamDiem
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
-        {           
+        {                     
             int index = lbQuestion.SelectedIndex;
             string A = lbQuestion.Items[index].ToString();
+            
+            
+            if (lbViewQuestion.Items.Contains(A))
+            {
+                MessageBox.Show("Câu hỏi đã được chọn. Vui lòng chọn câu hỏi khác! ");
+            }
 
-            lbViewQuestion.Items.Add(A);              
+            else 
+            {
+                lbViewQuestion.Items.Add(A);
+            }                 
+        }
+
+
+
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
