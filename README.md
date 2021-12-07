@@ -51,6 +51,20 @@
 <p>Tạo đề ngẫu nhiên bằng cách cho số lượng câu hỏi.</p>
 ![image](https://user-images.githubusercontent.com/91233366/145057849-8bda71db-8195-43f1-81f2-113b857c1708.png)
 
+<p>- Phần chấm bài</p>
+![image](https://user-images.githubusercontent.com/91233366/145060878-a88d1fcf-e336-4b00-885f-41a695b1d158.png)
+
+4. Các file XML có trong Soandethi-Chamtracnghiem Form
+<p>Bao gồm file XML tên DeThi chứa ngân hàng đề, khi tạo ra đề sẽ được lưu vào file Test.xml ở phía trên nhằm cho mục đích load đề thi, và 1 file XML bài làm của thí sinh nhằm mục đích chấm bài</p>
+
+<p>ngân hàng đề</p>
+![image](https://user-images.githubusercontent.com/91233366/145061460-d265a786-dd5b-4df3-bd56-241eb3627874.png)
+
+<p>File bài làm của thí sinh</p>
+![image](https://user-images.githubusercontent.com/91233366/145061543-fe33f7ad-5838-4af4-9558-b60cb4692016.png)
+
+
+
 
 
 
