@@ -148,7 +148,7 @@
 	<Question ID ="17">
 		<content>Chính sách tài khoản nào nên được thiết lập để ngăn chặn các cuộc tấn công ác ý vào tài khoản của user?</content>
 		<A>Disable tài khoản không dùng đến</A>
-		<B>>Hạn chế thời gian</B>
+		<B>Hạn chế thời gian</B>
 		<C>Ngày hết hạn tài khoản</C>
 		<D>Giới hạn số lần logon</D>
 		<result>D</result>

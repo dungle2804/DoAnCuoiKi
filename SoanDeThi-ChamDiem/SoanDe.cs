@@ -16,6 +16,7 @@ namespace SoanDeThi_ChamDiem
         List<Question> lstQuestion = new List<Question>();
         List<String> lstRandomQuestion = new List<String>();
         List<String> lstSelectedQuestion = new List<String>();
+        List<int> lstIndex = new List<int>();
 
         List<AnswerA> lstAnswerA = new List<AnswerA>();
         List<AnswerB> lstAnswerB = new List<AnswerB>();
@@ -205,6 +206,7 @@ namespace SoanDeThi_ChamDiem
             else 
             {
                 lbViewQuestion.Items.Add(A);
+                lstIndex.Add(index);
             }                 
         }
 
@@ -215,37 +217,42 @@ namespace SoanDeThi_ChamDiem
             int index = lbViewQuestion.SelectedIndex;
 
             lbViewQuestion.Items.RemoveAt(index);// Xoa khoi listbox
+            lstIndex.Remove(index);
         }
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
+            
             XmlWriter writer = XmlWriter.Create("Test_Selected.xml", new XmlWriterSettings() { Indent = true });
             writer.WriteStartElement("test");
 
-            for (int i = 0; i < int.Parse(txtSoCauHoi.Text); i++)
+            for (int i = 0; i < lbViewQuestion.Items.Count; i++)
             {
-                int ID = i + 1;
+                lstSelectedQuestion.Add(lbViewQuestion.Items[i].ToString());
+                
+                int ID = i + 1; //ID bat dau bang so 1 
+
                 writer.WriteStartElement("Question");
                 writer.WriteAttributeString("ID", ID.ToString());
 
                 writer.WriteStartElement("content");
-                writer.WriteValue(lstQuestion[numbers[i]].ToString());
+                writer.WriteValue(lstSelectedQuestion[i]);
                 writer.WriteEndElement();
 
                 writer.WriteStartElement("A");
-                writer.WriteValue(lstAnswerA[numbers[i]].ToString());
+                writer.WriteValue(lstAnswerA[lstIndex[i]].ToString());
                 writer.WriteEndElement();
 
                 writer.WriteStartElement("B");
-                writer.WriteValue(lstAnswerB[numbers[i]].ToString());
+                writer.WriteValue(lstAnswerB[lstIndex[i]].ToString());
                 writer.WriteEndElement();
 
                 writer.WriteStartElement("C");
-                writer.WriteValue(lstAnswerC[numbers[i]].ToString());
+                writer.WriteValue(lstAnswerC[lstIndex[i]].ToString());
                 writer.WriteEndElement();
 
                 writer.WriteStartElement("D");
-                writer.WriteValue(lstAnswerD[numbers[i]].ToString());
+                writer.WriteValue(lstAnswerD[lstIndex[i]].ToString());
                 writer.WriteEndElement();
 
 
