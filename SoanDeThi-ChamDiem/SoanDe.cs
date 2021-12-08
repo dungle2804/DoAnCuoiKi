@@ -129,6 +129,7 @@ namespace SoanDeThi_ChamDiem
                 Random_Test();
                 SaveFileRandomTest();
                 MessageBox.Show("Đề đã được tạo thành công!");
+                btnRandom.Enabled = false;
             }
         }
 
