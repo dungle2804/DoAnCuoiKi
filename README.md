@@ -25,7 +25,7 @@
 
 <p>- Trong form còn được tạo thêm các nút bao gồm tiếp theo và trước đó nhằm giúp thí sinh có thể bấm qua câu tiếp theo hoặc lùi câu trước đó, giúp thí sinh có thể sửa đổi đáp án nếu có ý định.</p>
 
-<p>- Cũng như có luôn 1 cái nút hoàn thành để thí sinh có thể nộp bài nếu đã hoàn thành xong, khi bấm nút hoàn thành thì form sẽ tự đông tắt đồng thời lưu xuống 1 file xml bài làm của thí sinh, giúp tránh hiện tượng gian lận hay hack vào đề thi.</p>
+<p>- Cũng như có luôn 1 cái nút hoàn thành để thí sinh có thể nộp bài nếu đã hoàn thành xong, khi bấm nút hoàn thành thì form sẽ tự đông tắt đồng thời lưu xuống 1 file xml bài làm của thí sinh, giúp tránh hiện tượng gian lận.</p>
 
 <p>- Có thêm 1 đồng hồ đếm ngược thời gian mà chỉ có giám thị mới có thể set được giờ, khi đồng hồ đếm ngược thì ngay lập tức form thi sẽ tự động tắt nhầm tránh trường hợp thí sinh làm bài quá giờ qui định, tất cả câu trả lời của thí sinh cũng sẽ được ghi lại.</p>
 
