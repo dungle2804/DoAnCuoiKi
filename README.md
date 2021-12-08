@@ -67,12 +67,13 @@
 <p>File bài làm của thí sinh</p>
 ![image](https://user-images.githubusercontent.com/91233366/145155958-9c25c11d-b19f-4118-aeaf-9bdc73be897d.png)
 
+<p>File XML đề tự chọn và ngẫu nhiên</p>
+
 ***
 **Tự đánh giá chương trình** 
 * Điểm mạnh 
 <p>- Giao diện trực quan dễ nhìn, dễ sử dụng, thân thiện với người dùng</p>
-<p>-   </p>
-
+<p>- Mức độ hoàn thiện khoảng 70%</p>
 
 * Điểm yếu
 <p>- Chưa hoàn thành chức năng chấm bài của chương trình</p>
