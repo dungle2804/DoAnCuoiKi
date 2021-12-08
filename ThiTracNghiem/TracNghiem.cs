@@ -89,9 +89,9 @@ namespace ThiTracNghiem
         {
             
             //Người dùng bắt buộc phải nhập tên và mã số, chọn chuyên ngành
-            if (txtTen.Text == "" || txtID.Text == "" || cbxChuyenNganh.Text == "")
+            if (txtTen.Text == "" || txtID.Text == "")
             {
-                MessageBox.Show("Xin vui lòng nhập đầy đủ tên, mã số và chọn chuyên ngành");
+                MessageBox.Show("Xin vui lòng nhập đầy đủ tên và mã số ");
                 this.timer1.Enabled = false;
             }    
             //Cho phép người dùng thực hiện bài thi 
