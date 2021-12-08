@@ -17,7 +17,7 @@
 1. Thitracnghiem form
 <p>- Có mục điền thông tin đăng nhập của thí sinh, giúp cho việc kiểm soát số lượng thí sinh cũng như chấm bài dễ dàng hơn, nếu không đăng nhập thì sẽ không làm bài được.</p>
 
-<p>- Có thể load được đề lên thông qua 1 listbox rồi truyền đổ data vào 1 text box khác giúp cho việc hiển thị đề trở nên thân thiện và dễ nhìn hơn.</p>
+<p>- Có thể load được đề lên thông qua 1 textbox giúp thân thiện và dễ nhìn với thí sinh hơn</p>
 
 <p>- Có 4 radio button được dùng để làm 4 đáp án trắc nghiệm cho câu hỏi, các đáp án cũng được thực hiện như tương tự như câu hỏi, thông qua việc sử dụng radion button giúp việc lựa chọn của đối tượng dễ dàng hơn và giúp lưu câu trả lời.</p>
 
