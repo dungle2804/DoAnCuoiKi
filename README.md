@@ -29,18 +29,17 @@
 
 <p>- Có thêm 1 đồng hồ đếm ngược thời gian mà chỉ có giám thị mới có thể set được giờ, khi đồng hồ đếm ngược thì ngay lập tức form thi sẽ tự động tắt nhầm tránh trường hợp thí sinh làm bài quá giờ qui định, tất cả câu trả lời của thí sinh cũng sẽ được ghi lại.</p>
 
-![image](https://user-images.githubusercontent.com/91233366/145055389-25065f1b-e133-470b-bcce-3dffc0162df9.png)
+![image](https://user-images.githubusercontent.com/91233366/145155508-81efe0db-258d-45c0-b3d2-2ecf5d5d5712.png)
 
-![image](https://user-images.githubusercontent.com/91233366/145055438-534e4521-f750-477b-91fe-e95ad3a736e4.png)
+![image](https://user-images.githubusercontent.com/91233366/145155555-a6f618cb-16d1-4d99-84c3-fa95346b0a87.png)
 
-![image](https://user-images.githubusercontent.com/91233366/145055476-f6de4a0b-b230-4b05-bbac-9e014d490c81.png)
+![image](https://user-images.githubusercontent.com/91233366/145155572-1e55f894-729b-4dce-961e-a6a17867f802.png)
+
 
 2. File XML của Thitracnghiem form
 <p>- Có 1 file XML được đặt tên là test chứa đề để dành cho việc kiểm tra, và sẽ không có bất kìa dòng nào chỉ đáp án nhằm tránh gian lận</p>
 
-![image](https://user-images.githubusercontent.com/91233366/145055783-03214520-1194-40d9-8a43-d18a74d37c11.png)
-
-![image](https://user-images.githubusercontent.com/91233366/145055807-4f8f1e4a-b9ec-4973-8e6b-b6ecfef385fe.png)
+![image](https://user-images.githubusercontent.com/91233366/145155608-db9ed976-c49a-4cf9-bb65-28cd0183e53b.png)
 
 3. Soandethi-Chamtracnghiem Form
 <p>- Ở phần soạn đề, giám thị có thể tự tạo ra 1 đề theo mong muốn bằng cách tự chọn các câu có trong ngân hàng đề được chứ trong file DeThi.xml.</p>
@@ -48,22 +47,25 @@
 <p>- Đồng thời giám thị cũngg có thể tự tạo 1 đề thi với các câu hỏi ngẫu nhiên chỉ bằng cách cho số lượng câu hỏi mong muốn vào 1 textbox và bấm tạo đề, hệ thống sẽ tự động chọn bất kì câu hỏi tự ngân hàng đề cho tới khi đủ số lượng thì sẽ xuất ra 1 fie xml đề mới.</p>
 
 <p>Form tạo đề</p>
-![image](https://user-images.githubusercontent.com/91233366/145057621-7110af84-491a-4fda-88f3-61723f450e0b.png)
+![image](https://user-images.githubusercontent.com/91233366/145155653-b9649c1b-a44d-4423-a918-f37d332af29d.png)
 
 <p>Tạo đề ngẫu nhiên bằng cách cho số lượng câu hỏi.</p>
-![image](https://user-images.githubusercontent.com/91233366/145057849-8bda71db-8195-43f1-81f2-113b857c1708.png)
+![image](https://user-images.githubusercontent.com/91233366/145155720-38971ebd-c3f7-4896-9d09-e817ad866b27.png)
 
 <p>- Phần chấm bài</p>
-![image](https://user-images.githubusercontent.com/91233366/145060878-a88d1fcf-e336-4b00-885f-41a695b1d158.png)
+![image](https://user-images.githubusercontent.com/91233366/145155745-4759794f-a12c-4e7c-a79e-102626294122.png)
+
+<p>- Phần tự tạo 1 đề thi mới</p>
+![image](https://user-images.githubusercontent.com/91233366/145155844-511d7603-0175-40d8-b3e8-cdf9fa4fec66.png)
 
 4. Các file XML có trong Soandethi-Chamtracnghiem Form
 <p>Bao gồm file XML tên DeThi chứa ngân hàng đề, khi tạo ra đề sẽ được lưu vào file Test.xml ở phía trên nhằm cho mục đích load đề thi, và 1 file XML bài làm của thí sinh nhằm mục đích chấm bài</p>
 
 <p>ngân hàng đề</p>
-![image](https://user-images.githubusercontent.com/91233366/145061460-d265a786-dd5b-4df3-bd56-241eb3627874.png)
+![image](https://user-images.githubusercontent.com/91233366/145155926-d06c0ddc-bae4-4005-a749-b19e66881f9f.png)
 
 <p>File bài làm của thí sinh</p>
-![image](https://user-images.githubusercontent.com/91233366/145061543-fe33f7ad-5838-4af4-9558-b60cb4692016.png)
+![image](https://user-images.githubusercontent.com/91233366/145155958-9c25c11d-b19f-4118-aeaf-9bdc73be897d.png)
 
 ***
 **Tự đánh giá chương trình** 
@@ -80,9 +82,11 @@
 
 ***
 **Các nguồn tham khảo**
-<p>- Có sự hướng dẫn và giúp đỡ của thầy Nguyễn Đức Huy</p>
-<p>- StackOverFlow</p>
-<p>- Viblo</p>
+<p>- Có sự hướng dẫn và giúp đỡ của thầy Nguyễn Đức Huy: https://github.com/ngdhuy/ITEC-2021-AOOP-DemoFileAccess</p>
+
+<p>- StackOverFlow URL: https://stackoverflow.com/questions/45185959/how-to-select-random-items-from-listbox-without-repeating?fbclid=IwAR2BgiTiY4pUPk0KNyupx2nSm2wJDejAcxfey_wrm1aswXgWnrOZpGZOm7I</p>
+
+<p>- Lab04 và Lab08 phần thực hành</p>
 
 
 
