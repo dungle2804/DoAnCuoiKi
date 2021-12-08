@@ -134,6 +134,7 @@ namespace SoanDeThi_ChamDiem
 
         private void SaveFileRandomTest()
         {
+            // Tao de ngau nhien
             XmlWriter writer = XmlWriter.Create("Test.xml", new XmlWriterSettings() { Indent = true });
             writer.WriteStartElement("test");
 
@@ -222,6 +223,7 @@ namespace SoanDeThi_ChamDiem
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
+            //Tao de tu chon
             
             XmlWriter writer = XmlWriter.Create("Test_Selected.xml", new XmlWriterSettings() { Indent = true });
             writer.WriteStartElement("test");
