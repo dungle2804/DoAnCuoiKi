@@ -60,7 +60,7 @@ namespace ThiTracNghiem
                 Timer_Countdown();
                 this.timer1.Enabled = false;
                 LuuBaiThi();
-                MessageBox.Show("Bạn đã hết thời gian làm bài!");                
+                MessageBox.Show("Bạn đã hết thời gian làm bài!");
             }
 
             else

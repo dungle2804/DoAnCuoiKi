@@ -32,14 +32,14 @@ namespace SoanDeThi_ChamDiem
         {
             InitializeComponent();
             
-            LoadFileQuestion();
-            LoadFileAnswer();
-            LoadFileUserAnswer();
+            
             
         }
         private void SoanDe_Load(object sender, EventArgs e)
         {
-
+            LoadFileQuestion();
+            LoadFileAnswer();
+            LoadFileUserAnswer();
         }
 
         private void LoadFileUserAnswer()

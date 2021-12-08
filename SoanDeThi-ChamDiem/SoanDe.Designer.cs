@@ -34,14 +34,14 @@ namespace SoanDeThi_ChamDiem
             this.btnRandom = new System.Windows.Forms.Button();
             this.txtSoCauHoi = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnDel = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.lbViewQuestion = new System.Windows.Forms.ListBox();
             this.lbUserAnswer = new System.Windows.Forms.ListBox();
             this.btnGrade = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.btnDel = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -49,7 +49,7 @@ namespace SoanDeThi_ChamDiem
             // lbQuestion
             // 
             this.lbQuestion.FormattingEnabled = true;
-            this.lbQuestion.Location = new System.Drawing.Point(22, 331);
+            this.lbQuestion.Location = new System.Drawing.Point(9, 277);
             this.lbQuestion.Name = "lbQuestion";
             this.lbQuestion.Size = new System.Drawing.Size(916, 368);
             this.lbQuestion.TabIndex = 0;
@@ -88,11 +88,29 @@ namespace SoanDeThi_ChamDiem
             this.groupBox1.Controls.Add(this.listBox1);
             this.groupBox1.Controls.Add(this.txtSoCauHoi);
             this.groupBox1.Controls.Add(this.btnRandom);
-            this.groupBox1.Location = new System.Drawing.Point(22, 61);
+            this.groupBox1.Location = new System.Drawing.Point(22, 8);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(409, 258);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(33, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Số câu hỏi";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(0, 101);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(403, 147);
+            this.listBox1.TabIndex = 6;
             // 
             // groupBox2
             // 
@@ -100,11 +118,31 @@ namespace SoanDeThi_ChamDiem
             this.groupBox2.Controls.Add(this.btnAdd);
             this.groupBox2.Controls.Add(this.lbViewQuestion);
             this.groupBox2.Controls.Add(this.btnCreate);
-            this.groupBox2.Location = new System.Drawing.Point(459, 56);
+            this.groupBox2.Location = new System.Drawing.Point(444, 8);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(479, 269);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
+            // 
+            // btnDel
+            // 
+            this.btnDel.Location = new System.Drawing.Point(390, 184);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(83, 34);
+            this.btnDel.TabIndex = 4;
+            this.btnDel.Text = "Xóa";
+            this.btnDel.UseVisualStyleBackColor = true;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(390, 143);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(83, 35);
+            this.btnAdd.TabIndex = 3;
+            this.btnAdd.Text = "Thêm";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // lbViewQuestion
             // 
@@ -117,7 +155,7 @@ namespace SoanDeThi_ChamDiem
             // lbUserAnswer
             // 
             this.lbUserAnswer.FormattingEnabled = true;
-            this.lbUserAnswer.Location = new System.Drawing.Point(959, 331);
+            this.lbUserAnswer.Location = new System.Drawing.Point(938, 282);
             this.lbUserAnswer.Name = "lbUserAnswer";
             this.lbUserAnswer.Size = new System.Drawing.Size(280, 368);
             this.lbUserAnswer.TabIndex = 2;
@@ -131,49 +169,11 @@ namespace SoanDeThi_ChamDiem
             this.btnGrade.Text = "Chấm điểm";
             this.btnGrade.UseVisualStyleBackColor = true;
             // 
-            // btnAdd
-            // 
-            this.btnAdd.Location = new System.Drawing.Point(390, 143);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(83, 35);
-            this.btnAdd.TabIndex = 3;
-            this.btnAdd.Text = "Thêm";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(0, 101);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(403, 147);
-            this.listBox1.TabIndex = 6;
-            // 
-            // btnDel
-            // 
-            this.btnDel.Location = new System.Drawing.Point(390, 184);
-            this.btnDel.Name = "btnDel";
-            this.btnDel.Size = new System.Drawing.Size(83, 34);
-            this.btnDel.TabIndex = 4;
-            this.btnDel.Text = "Xóa";
-            this.btnDel.UseVisualStyleBackColor = true;
-            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 25);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Số câu hỏi";
-            // 
             // SoanDe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1298, 839);
+            this.ClientSize = new System.Drawing.Size(722, 458);
             this.Controls.Add(this.btnGrade);
             this.Controls.Add(this.lbUserAnswer);
             this.Controls.Add(this.groupBox2);
