@@ -77,7 +77,6 @@
 
 * Điểm yếu
 <p>- Chưa hoàn thành chức năng chấm bài của chương trình</p>
-<p>- Khi tạo đề ngẫu nhiên nếu bấm quá 2 chương trình sẽ bị crash</p>
 <p>- Nút next trong form thi trắc nghiệm mỗi lần sử dụng sẽ bị reset toàn bộ radio button đáp án, tuy nhiên dữ liệu vẫn được lưu, gây khó khăn trong việc xác định đáp án đã chọn cho người dùng</p>
 
 
